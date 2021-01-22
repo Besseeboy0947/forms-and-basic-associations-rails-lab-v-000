@@ -2,10 +2,11 @@
 
 <%= form_for @song  do |f| %>
   <%= f.label :title %>
+  <%= f.label :artist %>
+  <%= f.label :genre %>
+  <%= f.label :notes %>
   <%= f.text_field :title %>
   <br />
 
   <%= f.submit %>
 <% end %>
-
-
